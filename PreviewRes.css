@@ -1,0 +1,221 @@
+                                    
+                                    /*---------------------------Preview Resume--------------------------*/
+
+
+
+body {
+
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+#FinalResume{
+    padding-top: 80px;
+    display: flex;
+    display: none;
+    justify-content: center;
+}
+ 
+
+#resume {
+
+   
+    width: 650px;
+    padding: 15px 40px;
+    margin-top: 30px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
+    
+}
+ 
+ 
+/*----------------------------------------------------------------------- Top-Header--------------------------------------------------------*/
+
+header {
+
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+header h1 {
+
+    margin: 0;
+    font-size: 2em;
+   
+}
+
+header p {
+
+    margin: 0.5em 0;
+    color: #666;
+    font-size: 80%;
+}
+  
+/*----------------------------------------------------------------------Career-Objective----------------------------------------------------*/
+
+
+ 
+.CareerObjective h3 {
+
+    border-bottom: 1px solid #333;
+    padding-bottom: 3px;
+    margin-bottom: 10px;
+}
+
+.CareerObjective p {
+
+    font-size: 90%;
+    margin: 0.5em 0;
+
+}
+
+ 
+
+/*--------------------------------------------------------------------------Experience------------------------------------------------------*/
+
+ 
+.Experience h3 {
+
+    border-bottom: 1px solid #333;
+    padding-bottom: 3px;
+    margin-bottom: 10px;
+   
+}
+
+.Experience span{
+ 
+    float: right;
+}
+
+.job p {
+
+    margin: 0.5em 0;
+    color: #666;
+    font-size: 90%;
+}
+
+ 
+ 
+/*------------------------------------------------------------------------------Projects----------------------------------------------------*/
+
+ 
+.Project h3 {
+
+    border-bottom: 1px solid #333;
+    padding-bottom: 3px;
+    margin-bottom: 10px;
+  
+}
+
+
+.pro p {
+
+    margin: 0.5em 0;
+    color: #666;
+    font-size: 90%;
+}
+
+
+/*------------------------------------------------------------------------------Education---------------------------------------------------*/
+
+.Education{
+
+    margin-bottom: 2em;
+
+}
+.Education h3 {
+
+    border-bottom: 1px solid #333;
+    padding-bottom: 3px;
+    margin-bottom: 10px;
+     
+}
+
+ 
+.Education p {
+
+    margin: 0.5em 0;
+    color: #666;
+    font-size: 90%;
+}
+ 
+/*-----------------------------------------------------------------------Tech-Skills--------------------------------------------------------*/
+
+ 
+.TechSkills h3 {
+
+    border-bottom: 1px solid #333;
+    padding-bottom: 3px;
+    margin-bottom: 10px;
+ 
+}
+
+.TechSkills p {
+   
+    font-size: 90%; 
+    margin: 0.5em 0;
+}
+
+/*------------------------------------------------------------------------Achievements------------------------------------------------------*/
+
+.Achievements h3 {
+
+    border-bottom: 1px solid #333;
+    padding-bottom: 3px;
+    margin-bottom: 10px;
+ 
+}
+
+.Achievements p {
+  
+    font-size: 90%; 
+    margin: 0.5em 0;
+}
+
+ 
+
+
+/*----------------------------------------------------------------------Download-Button-----------------------------------------------------*/
+
+
+#Dnbtn{
+
+    display: flex;
+    display: none;
+    justify-content: center;
+
+}
+
+#Dnbtn #download-btn {
+
+    margin-top: 25px;
+    margin-bottom: 30px;
+    height: 3rem;
+    width: 10rem;
+    font-size: 100%;
+    background: blue;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    
+}
+
+
+#download-btn:hover{
+
+    box-shadow: 1px 1px 8px 1px blue;
+    transition: 0.3s;
+   
+}
+ 
+/*-----------------------------------------------------------------------End----------------------------------------------------------------*/
+
+
+
+
+
