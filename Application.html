@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Application.css">
+    <link rel="stylesheet" href="./PreviewRes.css">
+    <script src="./Script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+
+    <!-- These 2 script src is jspdf library -->
+    
+</head>
+<body>
+
+
+                                   <!----------------------------Application-Form----------------------->
+
+
+<div class="top">    
+        
+        <a href="./index.html"><img src="./Images/Back icon.png" alt="" height="40"></a>
+
+</div>
+
+<br>
+<br>
+
+<h1 id="ftf">Fill the Form</h1>
+
+        
+<!----------------------------------------------------------------About-Section-------------------------------------------------------------->
+  
+<div id="AboutSection">
+ 
+            <div class="AB">
+
+                <h3>ABOUT SCETION</h3> <br />
+              
+                <form action="" id='form'>
+                    <br />
+
+                    <div class="row1">
+
+                        <div class="r11">
+                            <p>First Name</p> 
+                            <input type="text"  id='FirstName'   required />
+                        </div>
+
+                        <div class="r12">
+                            <p>Middle name(Optionnal)</p> 
+                            <input type="text" id='MiddleName'/>
+                        </div> 
+
+                        <div class="r13">
+                            <p>Last name</p> 
+                            <input type="text"  id='LastName' required />
+                        </div> 
+
+                    </div>
+
+                    <br />
+
+                    <div class="row2">
+
+                        <div class="r21">
+                            <p>Email</p> 
+                             <input type="text"  id='Email' required />
+                        </div>
+
+                        <div class="r22">
+                             <p>Phone No:</p> 
+                            <input type="text"  id='PhoneNo' required />
+                        </div> 
+
+                        <div class="r23">
+                            <p>Address</p> 
+                            <input type="text"  id='Address' required />
+                        </div> 
+
+                    </div>
+                    <br />
+                    <div class="row3">
+
+                        <div class="r31">
+                            <p>Your Image</p> 
+                            <input type="text" id=""  required />
+                        </div>
+
+                        <div class="32">
+                             <p>Designation</p> 
+                             <input type="text"  id='Designation' required />
+                        </div> 
+
+                        <div class="r33">
+                             <p>Summary</p> 
+                            <input type="text"  id='Summary' required />
+                        </div> 
+
+                    </div>
+
+                </form>
+                
+            </div>
+ 
+</div>   
+        
+ 
+        
+<!----------------------------------------------------------------Education-Section---------------------------------------------------------->
+
+<div id="EducationSection">
+     
+            <div class="ES">
+               
+                <h3>EDUCATION</h3> <br />
+                <h4>Secondary Education</h4>
+                <br>
+                  
+                    <form action="" id='form'> <br />
+                        
+                        <div class="row1">
+                         
+                            <div class="r11">
+                                <p>School</p> 
+                                <input type="text"  id='School1'  required />
+                            </div>
+    
+                            <div class="r12">
+                                <p>Percentage</p> 
+                                <input type="text"  id='Per1' required/>
+                            </div> 
+    
+                            <div class="r13">
+                                <p>City</p> 
+                                <input type="text"  id='City1' required />
+                            </div> 
+    
+                        </div>
+                        <br />
+                        <div class="row2">
+    
+                            <div class="r21">
+                                <p>Start Date</p> 
+                                <input type="text"  id='Ed-Sd1' required />
+                            </div>
+    
+                            <div class="r22">
+                                <p>End Date</p> 
+                                <input type="text"  id='Ed-Ed1' required />
+                            </div> 
+    
+                            <div class="r23">
+                                <p>Board</p> 
+                                <input type="text"  id='Ed-B1' required />
+                            </div> 
+    
+                        </div> 
+
+                        <br>
+                         
+                    </form>
+                    <br />
+
+
+                    <!--School-2-->
+                    <h4>Senior Secondary Education</h4>
+                    <br>
+
+                    <form action="" id='form'>
+                        <br />
+    
+                        <div class="row1">
+    
+                            <div class="r11">
+                                <p>School</p> 
+                                <input type="text"  id='School2'  required />
+                            </div>
+    
+                            <div class="r12">
+                                <p>Degree</p> 
+                                <input type="text"  id='Degree2' required/>
+                            </div> 
+    
+                            <div class="r13">
+                                <p>City</p> 
+                                <input type="text"  id='City2' required />
+                            </div> 
+    
+                        </div>
+                        <br />
+                        <div class="row2">
+    
+                            <div class="r21">
+                                <p>Start Date</p> 
+                                <input type="text"  id='StartDate2' required />
+                            </div>
+    
+                            <div class="r22">
+                                <p>End Date</p> 
+                                <input type="text"  id='EndDate2' required />
+                            </div> 
+    
+                            <div class="r23">
+                                <p>Description</p> 
+                                <input type="text"  id='Description2' required />
+                            </div> 
+    
+                        </div> 
+
+                        <br>   
+                         
+                    </form>
+
+                    <br>
+
+                    <!-- --------->
+
+                    <h4>Graduation </h4>
+                    <br>
+               
+
+                    <form action="" id='form'>
+                        <br />
+    
+                        <div class="row1">
+    
+                            <div class="r11">
+                                <p>School</p> 
+                                <input type="text"  id='School3' />
+                            </div>
+    
+                            <div class="r12">
+                                <p>Degree</p> 
+                                 <input type="text"  id='Degree3'  />
+                            </div> 
+    
+                            <div class="r13">
+                                 <p>City</p> 
+                                <input type="text"  id='City3'  />
+                            </div> 
+    
+                        </div>
+                        <br />
+                        <div class="row2">
+    
+                            <div class="r21">
+                                <p>Start Date</p> 
+                                <input type="text"  id='StartDate3'  />
+                            </div>
+    
+                            <div class="r22">
+                                <p>End Date</p> 
+                                 <input type="text"  id='EndDate3'   />
+                            </div> 
+    
+                            <div class="r23">
+                                 <p>Description</p> 
+                                <input type="text"  id='Description3'  />
+                            </div> 
+    
+                        </div> 
+
+                        <br>
+            
+                         
+                    </form>
+
+                    <br>
+
+                    <!-- ----- -->
+
+                    <h4>Optional</h4>
+                    <br>
+                    <form action="" id='form'>
+                        <br />
+    
+                        <div class="row1">
+    
+                            <div class="r11">
+                                <p>School</p> 
+                                <input type="text"  id='School3' />
+                            </div>
+    
+                            <div class="r12">
+                                <p>Degree</p> 
+                                <input type="text"  id='Degree3'  />
+                            </div> 
+    
+                            <div class="r13">
+                                 <p>City</p> 
+                                <input type="text"  id='City3'  />
+                            </div> 
+    
+                        </div>
+                        <br />
+                        <div class="row2">
+    
+                            <div class="r21">
+                                <p>Start Date</p> 
+                                <input type="text"  id='StartDate3'  />
+                            </div>
+    
+                            <div class="r22">
+                                 <p>End Date</p> 
+                                 <input type="text"  id='EndDate3'   />
+                            </div> 
+    
+                            <div class="r23">
+                                 <p>Description</p> 
+                                 <input type="text"  id='Description3'  />
+                            </div> 
+    
+                        </div> 
+
+                        <br>
+                         
+                    </form>
+     
+                   
+                </div>
+     
+</div>
+
+<br>  
+ 
+        
+<!----------------------------------------------------------------Experience-Section--------------------------------------------------------->
+                     
+  
+<div id="ExperienceSection">
+     
+            <div class="ExS">
+    
+                <h3>EXPERIENCE</h3> <br />
+                  
+                    <form action="" id='form'>
+                        <br />
+    
+                        <div class="row1">
+    
+                            <div class="r11">
+                                <p>Title</p> 
+                                <input type="text" id='Ex-T1'   required />
+                            </div>
+    
+                            <div class="r12">
+                                <p>Company/Organization</p> 
+                                <input type="text" id='Ex-C1' required/>
+                            </div> 
+    
+                            <div class="r13">
+                                <p>Location</p> 
+                                 <input type="text"  id='Ex-L1' required />
+                            </div> 
+    
+                        </div>
+
+                        <br />
+
+                        <div class="row2">
+
+                            <div class="r21">
+                                <p>Description</p> 
+                                <input type="text"  id='Ex-Des1' required />
+                            </div> 
+    
+                            <div class="r22">
+                                 <p>Start Date</p> 
+                                <input type="text" id='Ex-Sd1' required />
+                            </div>
+    
+                            <div class="r23">
+                                 <p>End Date</p> 
+                                 <input type='text'  id='Ex-Ed1' required />
+                            </div> 
+    
+                        </div> 
+                        
+                         
+                    </form>
+                    <br />
+
+                    <!--  -->
+
+                    <h4>(Optional)</h4> <br>
+
+                    <form action="" id='form'>
+                        <br />
+
+                        <div class="row1">
+
+                            <div class="r11">
+                                <p>Title</p> 
+                                <input type="text" id='Ex-T2' />
+                            </div>
+    
+                            <div class="r12">
+                                <p>Company/Organization</p> 
+                                 <input type="text" id='Ex-C2' />
+                            </div> 
+    
+                            <div class="r13">
+                                 <p>Location</p> 
+                                 <input type="text"  id='Ex-L2' />
+                            </div> 
+                        </div>
+
+                        <br />
+
+                        <div class="row2">
+                            <div class="r21">
+                                <p>Description</p> 
+                                <input type="text"  id='Ex-Des2' />
+                            </div> 
+    
+                            <div class="r22">
+                                <p>Start Date</p> 
+                                <input type="text" id='Ex-Sd2' />
+                            </div>
+    
+                            <div class="r23">
+                                 <p>End Date</p> 
+                                 <input type='text'  id='Ex-Ed2' />
+                            </div> 
+                        </div> 
+                        
+                         
+                    </form>
+ 
+
+                    <br>
+                    <!--  -->
+
+                    <h4>(Optional)</h4> <br>
+
+                    <form action="" id='form'>
+                        <br />
+    
+                        <div class="row1">
+    
+                            <div class="r11">
+                                <p>Title</p> 
+                                <input type="text" id='Ex-T3' />
+                            </div>
+    
+                            <div class="r12">
+                                 <p>Company/Organization</p> 
+                                 <input type="text" id='Ex-C3' />
+                            </div> 
+    
+                            <div class="r13">
+                                <p>Location</p> 
+                                 <input type="text"  id='Ex-L3' />
+                            </div> 
+    
+                        </div>
+
+                        <br />
+
+                        <div class="row2">
+
+                            <div class="r21">
+                                <p>Description</p> 
+                                <input type="text"  id='Ex-Des3' />
+                            </div> 
+    
+                            <div class="r22">
+                                <p>Start Date</p> 
+                                <input type="text" id='Ex-Sd3' />
+                            </div>
+    
+                            <div class="r23">
+                                 <p>End Date</p> 
+                                 <input type='text'  id='Ex-Ed3' />
+                            </div>
+                          
+    
+                        </div> 
+                        
+                         
+                    </form>
+
+           
+                </div>
+     
+</div>
+
+<br>
+                     
+  
+        
+<!-----------------------------------------------------------------Project-Section----------------------------------------------------------->
+
+ 
+ 
+<div id="ProjectSection">
+     
+            <div class="PS">
+    
+                <h3>PROJECTS</h3> <br />
+                    <form action="" id='form'>
+                        <br />
+    
+                        <div class="row1">  
+
+                            <div class="r11">
+                            <p>Project Name</p> 
+                            <input type="text" id='PT-1'  required />
+                            </div>
+    
+                            <div class="r12">
+                             <p>Project Description</p> 
+                             <input type="text" id='PD-1' required/>
+                            </div> 
+
+                        </div>
+                         
+                    </form>
+                    <br />
+
+                    <!--  -->
+
+                    <h4>(Optional)</h4> <br>
+
+                    <form action="" id='form'>
+                        <br />
+                        <div class="row1">
+
+                            <div class="r11">
+                            <p>Project Name</p> 
+                            <input type="text" id='PT-2'/>
+                            </div>
+
+                            <div class="r12">
+                             <p>Project Description</p> 
+                             <input type="text" id='PD-2'/>
+                            </div> 
+
+                        </div>
+                         
+                    </form>
+
+                    <br>
+                    <!--  -->
+
+                    <h4>(Optional)</h4> <br>
+
+                    <form action="" id='form'>
+                        <br />
+    
+                        <div class="row1">
+    
+                            <div class="r11">
+                            <p>Project Name</p> 
+                            <input type="text" id='PT-3' />
+                            </div>
+    
+                            <div class="r12">
+                             <p>Project Description</p> 
+                             <input type="text" id='PD-3'/>
+                            </div> 
+ 
+                        </div>
+                         
+                    </form>
+                    
+            </div>
+     
+</div>
+
+<br>
+
+                     
+        
+<!----------------------------------------------------------------Skill-Section-------------------------------------------------------------->
+ 
+ 
+<div id="SkillsSection">
+        <div class="SS">
+
+                <h3>SKILLS</h3> <br />
+                <form action="" id='form'>
+                    <br />
+                    <div class="row1"> 
+                        <input type="text" id='Sk1' />
+                        <input type="text" id='Sk2' />
+                        <input type="text" id='Sk3' />
+                    </div>
+                    <br />
+                    <div class="row2"> 
+                        <input type="text" id='Sk4' />
+                        <input type="text" id='Sk5' />
+                        <input type="text" id='Sk6' />
+                    </div> 
+                </form>      
+        </div>
+</div>
+
+        
+<!----------------------------------------------------------------Achievement-Section-------------------------------------------------------->
+
+<div id="AchievementSection">
+    
+    <div class="AS">
+
+        <h3>ACHIEVEMENTS</h3> <br />
+
+        <form action="" id='form'>
+            <br />
+            <div class="row1"> 
+                <input type="text" id='A1' />
+                <input type="text" id='A2' />
+                <input type="text" id='A3' />
+            </div>
+            <br />
+            <div class="row2"> 
+                <input type="text" id='A4' />
+                <input type="text" id='A5' />
+                <input type="text" id='A6' />
+            </div> 
+        </form>
+          
+    </div>
+</div>
+
+
+</div>
+ 
+
+
+<!--------------------PreviewButton-------------->
+
+<div class="PR-btn">
+
+    <a href="#FinalResume">   <button id='btnp' onclick="copyText()">Preview Resume</button>  </a>
+
+</div>
+
+
+
+<!-------------------------------------------------------------------Final-Resume------------------------------------------------------------>
+
+        
+<div id="FinalResume">
+
+        <br><br> 
+
+    <div id="resume">
+ 
+
+<!-----------------Heading-top----------------->
+
+        <header>
+            <h1 id="H-Name"></h1>
+            <p id="H-Designation"></p>
+            <p id="H-Address"> </p>
+            <p id="H-EmPh"></p> 
+        </header>
+                
+          
+<!--------------- Career-Objective------------->
+          
+        <section class="CareerObjective">
+            <h3>CAREER OBJECTIVE</h3>
+            <p id="CO-Summary"></p>
+        </section>
+
+<!-------------------Experience---------------->
+        
+        <section class="Experience">
+
+                    <h3>EXPERIENCE</h3>
+
+                <div class="job">
+                    <h4 id="E1-T1C1L1"></h4> 
+                    <h5 id="From1"></h5>
+                     <p id="Edes1"></p>
+                </div>
+
+                    <!-- Optional 1  -->
+
+                <div class="job">
+                    <h4 id="E2-T2C2L2"></h4> 
+                     <h5 id="From2"></h5>
+                    <p id="Edes2"></p>
+                </div>
+
+                <!-- Optional 2 -->
+
+                <div class="job">
+                    <h4 id="E3-T3C3L3"></h4> 
+                     <h5 id="From3"></h5>
+                     <p id="Edes3"></p>
+                </div>
+                   
+                    
+        </section>
+          
+        
+<!---------------------Projects----------------------->
+                
+        <section class="Project">
+
+                <h3>PROJECTS</h3> 
+
+                <div class="pro">
+                    <h4 id="pt-1">edeedededede</h4>
+                    <p id="pd-1">edede</p>    
+                </div>
+
+                <div class="pro">
+                    <h4 id="pt-2"></h4>
+                    <p id="pd-2"></p>
+                 </div>
+
+                <div class="pro">
+                    <h4 id="pt-3"> </h4>
+                    <p id="pd-3"> </p>
+                </div>
+
+        </section>
+        
+          
+<!---------------------Education--------------------->
+          
+          
+        <section class="Education">
+
+                <h3>EDUCATION</h3>
+                       
+                <h4 id="Ed1"></h4>
+                <h4 id="EdFrom1">From</h4>
+
+                    <p id="Edd1"></p>
+                     <h4></h4>
+                     <h4></h4>
+                     <p></p>
+                     <h4></h4>
+                     <h4></h4>
+                     <p></p>
+
+        </section>
+          
+          
+          
+<!-----------------Technical-Skills------------------>
+        
+        <section class="TechSkills">
+
+            <h3>TECHNICAL SKILLS</h3>
+                <p id="s1"></p>
+                <p id="s2"></p>
+                <p id="s3"></p>
+                <p id="s4"></p>
+                <p id="s5"></p>
+                <p id="s6"></p>    
+
+        </section>
+
+<!----------------Achievements-Skills------------>
+                
+        <section class="Achievements">
+          
+            <h3>ACHIEVEMENTS</h3>
+                <p id="a1"></p>
+                <p id="a2"></p>
+                <p id="a3"></p>
+                <p id="a4"></p>
+                <p id="a5"></p>
+                <p id="a6"></p>    
+                     
+        </section>
+          
+        
+         
+    
+</div>
+
+<br>
+<br>
+<br>
+<br>
+
+</div>
+
+<br>
+
+        
+<!----------------Download-Button--------------->
+ 
+    <div id="Dnbtn">
+
+    <button id="download-btn" >Download Resume</button>
+
+    </div>        
+    
+<!---------------------------------------------------------------------End------------------------------------------------------------------->
+
+ 
+        
+</body>
+ 
+</html>
