@@ -1,0 +1,964 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ .top{
+
+    height: 60px;
+    background-color: rgb(9, 9, 49);
+    color: white;
+    position: sticky;
+    top: 0px;
+
+ }
+
+ .top img{
+
+    padding-left: 15px;
+    padding-top: 7px;
+    align-items: center;
+ }
+
+ #ftf{
+
+    font-size: 250%;
+    text-align: center;
+    color: Black;
+
+ }
+ 
+
+/*-----------------------------------------------------------------About-Section------------------------------------------------------------*/
+
+#AboutSection{
+
+    padding-top:25px;
+    display: flex;
+    justify-content: center;
+
+}
+ 
+ 
+#form{
+
+    background-color: rgb(246, 249, 251);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgb(172, 222, 222);
+    background-color: rgb(246, 236, 223);
+
+}
+#AboutSection .AB h3{
+
+    background-color:black;
+    color: white;
+    width: 59.5rem;
+    height: 1.5rem;
+    padding-left: 10px;
+    font-size:100%;
+    align-content: center;
+  
+}
+
+#AboutSection #form{
+
+    height: 14.5rem;
+    width: 60rem;
+    font-size: 95% ;
+   
+}
+
+#AboutSection #form .row1 input, #AboutSection #form .row2 input, #AboutSection #form .row3 input{
+
+    width:18rem;
+    height: 1.5rem;
+    border: 1px solid rgb(172, 222, 222);
+}
+ 
+
+#AboutSection #form .row1 , #AboutSection #form .row2 ,  #AboutSection #form .row3{
+
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+ 
+}
+
+@media only screen and (max-width: 1011px) {
+
+    #AboutSection .AB h3{
+
+        width: 40rem;
+        height: 1.5rem;
+    }
+
+    #AboutSection #form p{
+
+        font-size: large;
+        margin: 20px;
+    }
+    
+    #AboutSection #form{
+
+        height: 65rem;
+        width: 40rem;
+        font-size: 120% ;
+    }
+
+    #AboutSection #form .row1 , #AboutSection #form .row2 ,  #AboutSection #form .row3{
+
+        display: block;
+    }
+
+    #AboutSection #form .row1 input, #AboutSection #form .row2 input, #AboutSection #form .row3 input{
+
+        width:37rem;
+        height: 1.5rem;
+        padding: 8px;
+        margin-left: 15px;
+    }
+    
+  }
+
+
+  @media only screen and (max-width: 878px) {
+
+    #AboutSection .AB h3{
+
+        width: 28.5rem;
+       
+    }
+
+    #AboutSection #form p{
+
+        font-size: 180%;
+        margin: 20px;
+    }
+    
+    #AboutSection #form{
+        
+        width: 29rem;
+        font-size: 50% ;
+    }
+
+    #AboutSection #form .row1 input, #AboutSection #form .row2 input, #AboutSection #form .row3 input{
+
+        width:26rem;
+        height: 1rem;
+         
+    }
+    
+  }
+
+  @media only screen and (max-width: 648px) {
+
+    #AboutSection .AB h3{
+
+        width: 19.5rem;
+        font-size: 70%;
+        padding-top: 2px;
+         
+    }
+
+    #AboutSection #form p{
+
+        font-size: 160%;
+        margin: 20px;
+    }
+    
+    #AboutSection #form{
+        
+        width: 20rem;
+        font-size: 50% ;
+    }
+
+    #AboutSection #form .row1 input, #AboutSection #form .row2 input, #AboutSection #form .row3 input{
+
+        width:17rem;
+        height: 1rem;
+         
+    }
+    
+  }
+
+
+/*-----------------------------------------------------------------Education-Section--------------------------------------------------------*/
+
+#EducationSection{
+
+    padding-top: 90px;
+    display: flex;
+    justify-content: center;
+
+}
+ 
+#EducationSection .ES h3{
+
+    background-color:black;
+    color: white;
+    width: 59.7rem;
+    height: 1.5rem;
+    padding-left: 6px;
+    font-size:100%;
+    align-content: center;
+}
+
+#EducationSection #form{
+
+    height: 11rem;
+    width: 60rem;
+    font-size: 95% ;
+    border: 1px solid rgb(172, 222, 222); 
+     
+}
+
+#EducationSection #form .row1 , #EducationSection #form .row2 ,  #EducationSection #form .row3{
+
+    display: flex;
+    justify-content: center;
+    gap:1.5rem;
+  
+}
+
+#EducationSection #form .row1 input, #EducationSection #form .row2 input, #EducationSection #form .row3 input{
+
+    width:18rem;
+    height: 1.5rem;
+    border: 1px solid rgb(172, 222, 222);
+ 
+}
+
+@media only screen and (max-width: 1011px) {
+
+    #EducationSection .ES h3{
+
+        width: 40rem;
+        height: 1.5rem;
+    }
+
+    #EducationSection #form p{
+
+        font-size: large;
+        margin: 20px;
+    }
+    
+    #EducationSection #form{
+
+        height: 43rem;
+        width: 40rem;
+        font-size: 120% ;
+    }
+
+    #EducationSection #form .row1 , #EducationSection #form .row2  {
+
+        display: block;
+    }
+
+    #EducationSection #form .row1 input, #EducationSection #form .row2 input {
+
+        width:37rem;
+        height: 1.5rem;
+        padding: 8px;
+        margin-left: 15px;
+    }
+    
+  }
+
+  @media only screen and (max-width: 878px) {
+
+    #EducationSection .ES h3{
+
+        width: 28.5rem;
+       
+    }
+
+    #EducationSection #form p{
+
+        font-size: 180%;
+        margin: 20px;
+    }
+    
+    #EducationSection #form{
+        
+        width: 29rem;
+        font-size: 50% ;
+    }
+
+    #EducationSection #form .row1 input,   #EducationSection #form .row2 input,   #EducationSection #form .row3 input{
+
+        width:26rem;
+        height: 1rem;
+         
+    }
+    
+  }
+
+  @media only screen and (max-width: 648px) {
+
+    #EducationSection  .ES h3{
+
+        width: 19.5rem;
+        font-size: 70%;
+        padding-top: 2px;
+         
+    }
+
+    #EducationSection  #form p{
+
+        font-size: 160%;
+        margin: 20px;
+    }
+    
+    #EducationSection  #form{
+        
+        width: 20rem;
+        font-size: 50% ;
+    }
+
+    #EducationSection #form .row1 input,  #EducationSection  #form .row2 input,  #EducationSection  #form .row3 input{
+
+        width:17rem;
+        height: 1rem;
+         
+    }
+    
+  }
+
+/*----------------------------------------------------------------------------Experience-Section--------------------------------------------*/
+
+#ExperienceSection{
+
+    padding-top: 90px;
+    display: flex;
+    justify-content: center;
+}
+ 
+#ExperienceSection .ExS h3{
+
+    background-color:black;
+    color: white;
+    width: 59.7rem;
+    height: 1.5rem;
+    padding-left: 6px;
+    font-size:100%;
+    align-content: center;
+   
+}
+
+#ExperienceSection #form{
+
+    height: 10.5rem;
+    width: 60rem;
+    font-size: 95% ;
+    border: 1px solid rgb(172, 222, 222);
+   
+}
+
+#ExperienceSection #form .row1 , #ExperienceSection #form .row2 ,  #ExperienceSection #form .row3{
+    
+    display: flex;
+    justify-content: center;
+    gap:1.5rem;
+  
+}
+#ExperienceSection #form .row1 input, #ExperienceSection #form .row2 input, #ExperienceSection #form .row3 input{
+
+    width:18rem;
+    height: 1.5rem;
+    border: 1px solid rgb(172, 222, 222);
+ 
+}
+
+@media only screen and (max-width: 1011px) {
+
+    #ExperienceSection .ExS h3{
+
+        width: 40rem;
+        height: 1.5rem;
+    }
+
+    #ExperienceSection #form p{
+
+        font-size: large;
+        margin: 20px;
+    }
+    
+    #ExperienceSection #form{
+
+        height: 43rem;
+        width: 40rem;
+        font-size: 120% ;
+    }
+
+    #ExperienceSection #form .row1 ,  #ExperienceSection #form .row2  {
+
+        display: block;
+    }
+
+    #ExperienceSection #form .row1 input, #ExperienceSection #form .row2 input {
+
+        width:37rem;
+        height: 1.5rem;
+        padding: 8px;
+        margin-left: 15px;
+    }
+    
+  }
+
+
+  @media only screen and (max-width: 878px) {
+
+    #ExperienceSection .ExS h3{
+
+        width: 28.5rem;
+       
+    }
+
+    #ExperienceSection  #form p{
+
+        font-size: 180%;
+        margin: 20px;
+    }
+    
+    #ExperienceSection  #form{
+        
+        width: 29rem;
+        font-size: 50% ;
+    }
+
+    #ExperienceSection #form .row1 input,   #ExperienceSection #form .row2 input,    #ExperienceSection #form .row3 input{
+
+        width:26rem;
+        height: 1rem;
+         
+    }
+    
+  }
+
+  @media only screen and (max-width: 648px) {
+
+    #ExperienceSection  .ExS h3{
+
+        width: 19.5rem;
+        font-size: 70%;
+        padding-top: 2px;
+         
+    }
+
+    #ExperienceSection  #form p{
+
+        font-size: 160%;
+        margin: 20px;
+    }
+    
+    #ExperienceSection #form{
+        
+        width: 20rem;
+        font-size: 50% ;
+    }
+
+    #ExperienceSection #form .row1 input,  #ExperienceSection  #form .row2 input, #ExperienceSection   #form .row3 input{
+
+        width:17rem;
+        height: 1rem;
+         
+    }
+    
+  }
+ 
+
+/*--------------------------------------------------------------------Project-Section-------------------------------------------------------*/
+ 
+#ProjectSection{
+
+    padding-top: 90px;
+    display: flex;
+    justify-content: center;
+}
+
+#ProjectSection .PS h3{
+
+    background-color:black;
+    color: white;
+    width: 59.7rem;
+    height: 1.5rem;
+    padding-left: 6px;
+    font-size:100%;
+    align-content: center;
+    
+}
+
+#ProjectSection #form{
+
+    height: 6rem;
+    width: 60rem;
+    font-size: 95% ;
+    border: 1px solid rgb(172, 222, 222); 
+    
+}
+
+#ProjectSection #form .row1  {
+
+    display: flex;
+    margin-left:1.1rem;
+    gap:1.5rem;
+  
+}
+
+#ProjectSection #form .row1 input {
+
+    width:18rem;
+    height: 1.5rem;
+    border: 1px solid rgb(172, 222, 222);
+ 
+}
+
+
+
+@media only screen and (max-width: 1011px) {
+
+    #ProjectSection .PS h3{
+
+        width: 40rem;
+        height: 1.5rem;
+    }
+
+    #ProjectSection #form p{
+      
+        margin: 20px;
+    }
+    
+    #ProjectSection #form{
+
+        height: 17rem;
+        width: 40rem;
+        font-size: 120% ;
+    }
+    #ProjectSection #form .row1 , #ProjectSection #form .row2  {
+
+        display: block;
+    }
+
+    #ProjectSection #form .row1 input  {
+
+        width:35rem;
+        height: 1.5rem;
+        padding: 8px;
+        margin-left: 15px;
+    }
+
+    
+  }
+
+  
+  @media only screen and (max-width: 878px) {
+
+    #ProjectSection .PS h3{
+
+        width: 28.5rem;
+       
+    }
+
+    #ProjectSection #form p{
+
+        font-size: 180%;
+        margin: 20px;
+    }
+    
+    #ProjectSection  #form{
+
+        width: 29rem;
+        font-size: 50% ;
+    }
+    #ProjectSection #form .row1 input  {
+
+        width:24.8rem;
+        height: 1rem;
+      
+    }
+
+  
+  }
+
+  @media only screen and (max-width: 648px) {
+
+    #ProjectSection .PS h3{
+
+        width: 19.5rem;
+        font-size: 70%;
+        padding-top: 2px;
+         
+    }
+
+    #ProjectSection #form p{
+
+        font-size: 160%;
+        margin: 20px;
+    }
+    
+    #ProjectSection #form{
+        
+        width: 20rem;
+        height: 14rem;
+        font-size: 50% ;
+    }
+
+    #ProjectSection #form .row1 input  {
+
+        width:15rem;
+        height: 1rem;
+      
+    }
+
+      
+    }
+
+
+/*----------------------------------------------------------------------Skills-Section------------------------------------------------------*/
+
+#SkillsSection{
+
+    padding-top: 90px;
+    display: flex;
+    justify-content: center;
+    
+}
+ 
+ 
+#SkillsSection .SS h3{
+
+    background-color:black;
+    color: white;
+    width: 59.7rem;
+    height: 1.5rem;
+    padding-left: 6px;
+    font-size:100%;
+    align-content: center;
+ 
+}
+
+#SkillsSection #form{
+
+    height: 8rem;
+    width: 60rem;
+    font-size: 95% ;
+    border: 1px solid rgb(172, 222, 222);  
+    
+}
+
+#SkillsSection #form .row1 , #SkillsSection #form .row2 {  
+
+    margin-left:1.1rem;
+    display: flex;
+    gap: 1rem;
+    padding-right: 20px;
+}
+
+#SkillsSection #form  input {
+
+    width:50rem;
+    height: 1.5rem;
+    border: 1px solid rgb(172, 222, 222);
+ 
+}
+
+
+@media only screen and (max-width: 1011px) {
+
+    
+#SkillsSection .SS h3{
+
+    width: 40rem;
+    height: 1.5rem;
+     
+}
+
+#SkillsSection p{
+
+    margin: 20px;
+}
+
+#SkillsSection #form{
+
+    height: 26rem;
+    width: 40rem;
+    font-size: 120% ;
+    
+}
+
+#SkillsSection #form .row1 , #SkillsSection #form .row2 {  
+
+    display: block;
+  
+}
+
+#SkillsSection #form .row1 input , #SkillsSection #form .row2 input {
+
+    width:35rem;
+    height: 1.5rem;
+    padding: 8px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+ 
+}
+ 
+    
+}
+
+
+@media only screen and (max-width: 878px) {
+
+    #SkillsSection .SS h3{
+
+        width: 28.5rem;
+       
+    }
+
+    #SkillsSection  #form p{
+
+        font-size: 180%;
+        margin: 20px;
+    }
+    
+    #SkillsSection   #form{
+        
+        width: 29rem;
+        font-size: 50% ;
+    }
+
+    #SkillsSection  #form .row1 input,   #SkillsSection  #form .row2 input,    #SkillsSection #form .row3 input{
+
+        margin-top: 10px;
+        width:24rem;
+        height: 1rem;
+         
+    }
+    
+  }
+
+  @media only screen and (max-width: 648px) {
+
+    #SkillsSection .SS h3{
+
+        width: 19.5rem;
+        font-size: 70%;
+        padding-top: 2px;
+         
+    }
+
+    #SkillsSection  #form p{
+
+        font-size: 160%;
+        margin: 20px;
+    }
+    
+    #SkillsSection  #form{
+        
+        width: 20rem;
+        font-size: 50% ;
+    }
+
+    #SkillsSection #form .row1 input,     #SkillsSection #form .row2 input,   #SkillsSection   #form .row3 input{
+
+        width:15rem;
+        height: 1rem;
+         
+    }
+    
+  }
+
+
+
+/*-----------------------------------------------------------------Achievement-Section------------------------------------------------------*/
+
+#AchievementSection {
+
+    padding-top: 90px;
+    display: flex;
+    justify-content: center;
+    
+}
+ 
+ 
+#AchievementSection .AS h3{
+
+    background-color:black;
+    color: white;
+    width: 59.7rem;
+    height: 1.5rem;
+    padding-left: 6px;
+    font-size:100%;
+    align-content: center;
+ 
+}
+
+#AchievementSection  #form{
+
+    height: 8rem;
+    width: 60rem;
+    font-size: 95% ;
+    border: 1px solid rgb(172, 222, 222);  
+    
+}
+
+#AchievementSection  #form .row1 , #AchievementSection #form .row2   {  
+
+    margin-left:1.1rem;
+    display: flex;
+    gap: 1rem;
+    padding-right: 20px;
+}
+
+#AchievementSection  #form  input {
+
+    width:50rem;
+    height: 1.5rem;
+    border: 1px solid rgb(172, 222, 222);
+ 
+}
+
+
+@media only screen and (max-width: 1011px) {
+
+    #AchievementSection .AS h3{
+
+        width: 40rem;
+        height: 1.5rem;
+    }
+
+    #AchievementSection p{
+
+        margin: 20px;
+    }
+    
+    #AchievementSection #form{
+    
+        height: 26rem;
+        width: 40rem;
+        font-size: 120% ;
+        
+    }
+    
+    #AchievementSection #form .row1 ,  #AchievementSection #form .row2 {  
+    
+        display: block;
+      
+    }
+    
+    #AchievementSection #form .row1 input , #AchievementSection #form .row2 input {
+    
+        width:35rem;
+        height: 1.5rem;
+        padding: 8px;
+        margin-left: 15px;
+        margin-bottom: 20px;
+     
+    }
+        
+        
+    }
+
+
+    @media only screen and (max-width: 878px) {
+
+        #AchievementSection .AS h3{
+
+            width: 28.5rem;
+           
+        }
+    
+        #AchievementSection  #form p{
+
+            font-size: 180%;
+            margin: 20px;
+        }
+        
+        #AchievementSection  #form{
+            
+            width: 29rem;
+            font-size: 50% ;
+        }
+    
+        #AchievementSection  #form .row1 input, #AchievementSection  #form .row2 input, #AchievementSection #form .row3 input{
+
+            margin-top: 10px;
+            width:24rem;
+            height: 1rem;
+             
+        }
+        
+      }
+
+      
+  @media only screen and (max-width: 648px) {
+
+    #AchievementSection .AS h3{
+
+        width: 19.5rem;
+        font-size: 70%;
+        padding-top: 2px;
+         
+    }
+
+    #AchievementSection #form p{
+
+        font-size: 160%;
+        margin: 20px;
+    }
+    
+    #AchievementSection  #form{
+        
+        width: 20rem;
+        font-size: 50% ;
+    }
+
+    #AchievementSection #form .row1 input,  #AchievementSection #form .row2 input, #AchievementSection  #form .row3 input{
+
+        width:15rem;
+        height: 1rem;
+         
+    }
+    
+  }
+
+
+/*-------------------------------------------------------------------Preview-Button-------------------------------------------------------- */
+
+ 
+
+.PR-btn{
+
+    display: flex;
+    justify-content: center;
+}
+
+#btnp {
+
+    width:10rem;
+    height: 3rem;
+    font-size: large;
+    border:2px solid white;
+    background-color:blue;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    margin-top: 80px;
+  
+}
+
+#btnp:hover{
+
+    box-shadow: 1px 1px 8px 1px blue;
+    transition: 0.3s;
+   
+}
+
+/* --------------------------------------------------------------------End----------------------------------------------------------------- */
+
+ 
+
+
+ 
+ 
